@@ -4,6 +4,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  color: inherit;
 }
 
 html {
@@ -225,6 +226,39 @@ html .container {
   line-height: 115%;
   letter-spacing: -0.02em;
   color: #07484a;
+}
+
+footer {
+  padding: 10rem 4rem 3rem;
+  gap: 20rem;
+}
+footer .container {
+  margin: 0 auto;
+  max-width: 1620px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 100%;
+  gap: 10rem;
+}
+footer .container__left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+footer .container__left .row {
+  display: flex;
+  gap: 3rem;
+}
+footer .container__left .row__icons {
+  font-size: 3rem;
+  color: #07484a;
+}
+footer .container__left .content {
+  font-size: 2rem;
+}
+footer .container__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 @media (max-width: 1024px) {
