@@ -15,6 +15,219 @@ html .container {
   width: 100%;
 }
 
+.abdulloh .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 3rem 4rem;
+}
+.abdulloh .header__container {
+  max-width: 1620px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.abdulloh .header__container #checkbox, .abdulloh .header__container label, .abdulloh .header__container .none {
+  display: none;
+  font-size: 3.1rem;
+  color: white;
+}
+.abdulloh .header__container__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.abdulloh .header__container__nav li a {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132.9%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.abdulloh .header__container__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.8rem;
+}
+.abdulloh .header__container__socials li a {
+  font-size: 2.7rem;
+  color: white;
+}
+
+.abdulloh .showcase {
+  padding: 35.3rem 4rem;
+  background: url(../images/bg-show.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 50px 50px;
+}
+.abdulloh .showcase__container {
+  max-width: 1620px;
+  width: 100%;
+  margin: 0 auto;
+}
+.abdulloh .showcase__container h1 {
+  max-width: 66.8rem;
+  width: 100%;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484A;
+}
+.abdulloh .showcase__container p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #07484A;
+  margin-top: 5.2rem;
+}
+.abdulloh .showcase__container a {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FDFBF8;
+  padding: 2.3rem 5.4rem;
+  background: #70908B;
+  border-radius: 10px;
+  margin-top: 5.4rem;
+  transition: 0.4s;
+}
+.abdulloh .showcase__container a:hover {
+  color: #70908B;
+  background-color: white;
+}
+
+.SpecialPackage .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.SpecialPackage .container .title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 96px;
+  text-align: center;
+  color: #07484a;
+  padding-bottom: 103px;
+}
+.SpecialPackage .container .flexed {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.SpecialPackage .container .flexed .left {
+  width: 50%;
+}
+.SpecialPackage .container .flexed .left img.giyos1 {
+  max-width: 100%;
+  background: url(pexels-taryn-elliott-4112601.jpg);
+  border-radius: 16px;
+}
+.SpecialPackage .container .flexed .left .afterImg .personName {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #07484a;
+  padding: 32px 0 21px 0;
+}
+.SpecialPackage .container .flexed .left .afterImg .starImg {
+  width: 248.98px;
+  height: 39.12px;
+}
+.SpecialPackage .container .flexed .left .afterImg .price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #07484a;
+  margin-top: 21px;
+}
+.SpecialPackage .container .flexed .description {
+  width: 50%;
+}
+.SpecialPackage .container .flexed .description .decs {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #07484a;
+}
+.SpecialPackage .container .flexed .description .decs .decTitle {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.SpecialPackage .container .flexed .description p.seeMore {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding: 25px 0 40px 0;
+}
+.SpecialPackage .container .flexed .description .cards .card {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.SpecialPackage .container .flexed .description .cards .card .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 24px;
+  width: 393px;
+  height: 183px;
+  border-radius: 10px;
+  background: #e0f6f1;
+}
+.SpecialPackage .container .flexed .description .cards .card .about .inAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SpecialPackage .container .flexed .description .cards .card .about .inAbout .room {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #07484a;
+}
+.SpecialPackage .container .flexed .description .cards .card .about .inAbout .room + p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #07484a;
+}
+
 footer {
   padding: 10rem 4rem 3rem;
   gap: 20rem;
@@ -46,6 +259,84 @@ footer .container__left .content {
 footer .container__right {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1024px) {
+  .abdulloh .header {
+    padding: 2.6rem 4rem;
+  }
+  .abdulloh .header__container label {
+    display: inline-block;
+  }
+  .abdulloh .header__container #checkbox:checked ~ .header__container__nav {
+    top: 0;
+  }
+  .abdulloh .header__container__nav {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 0 7rem;
+    background-color: white;
+    z-index: 100;
+    left: 0;
+    top: -100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transition: 0.4s;
+    gap: 2.4rem;
+  }
+  .abdulloh .header__container__nav .xmark {
+    display: inline-block;
+    color: #000000;
+    position: absolute;
+    top: 3.5rem;
+    align-self: center;
+    font-size: 2.5rem;
+  }
+  .abdulloh .header__container__nav li a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+  }
+}
+@media (max-width: 768px) {
+  .abdulloh .header {
+    padding: 2.6rem 2rem;
+  }
+  .abdulloh .header__container__nav {
+    padding: 0 5rem;
+  }
+  .abdulloh .header__container__nav li a {
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 64px;
+  }
+}
+@media (max-width: 492px) {
+  .abdulloh .header__container .logo {
+    display: none;
+  }
+  .abdulloh .header__container .none {
+    display: block;
+    height: 2.6rem;
+  }
+  .abdulloh .header__container__socials {
+    gap: 1.2rem;
+    font-size: 2.1rem;
+  }
+  .abdulloh .header__container__nav {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 7rem 3rem;
+    gap: 1.6rem;
+  }
+  .abdulloh .header__container__nav li a {
+    font-size: 3rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

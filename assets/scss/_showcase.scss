@@ -1,0 +1,57 @@
+.abdulloh{
+    .showcase{
+        padding: 35.3rem 4rem;
+        background: url(../images/bg-show.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0 0 50px 50px;
+
+        &__container{
+            max-width: 1620px;
+            width: 100%;
+            margin: 0 auto;
+
+            h1{
+                max-width: 66.8rem;
+                width: 100%;
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 85px;
+                color: #07484A;                
+            }
+
+            p{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 33px;
+                color: #07484A;
+                margin-top: 5.2rem;
+            }
+
+            a{
+                display: inline-block;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 33px;
+                color: #FDFBF8;  
+                padding: 2.3rem 5.4rem;              
+                background: #70908B;
+                border-radius: 10px;
+                margin-top: 5.4rem;
+                transition: .4s;
+
+                &:hover{
+                    color: #70908B;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
