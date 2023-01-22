@@ -50,6 +50,87 @@
                 }
             }
         }
+
+        .showcase{
+            padding: 17.6rem 4rem;
+
+            &__container{
+                h1{
+                    max-width: 50rem;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 62px;
+                    color: #07484A;                    
+                }
+
+                p{
+                    font-size: 24px;
+                    line-height: 33px;
+                    margin-top: 1.6rem;
+                }
+
+                a{
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 33px;
+
+                }
+            }
+        }
+
+        .explore{
+            padding: 10rem 3.4rem 0;
+
+            h1{
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+            }
+
+            &__container{
+                margin-top: 3.6rem;
+                grid-template-columns: 1fr;
+
+                &__left{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    form{
+                        max-width: 46.3rem;
+                    }
+
+                    &__wrap{
+                        margin-top: 3.6rem;
+                        overflow: visible;
+                        max-height: auto;
+                        min-height: auto;
+
+                        
+                        ul{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                            column-gap: 3rem;
+                            
+                            li{
+                                width: auto;
+
+                                &:nth-child(7) ~ li{
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        &::-webkit-scrollbar{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -67,6 +148,27 @@
                             font-size: 47px;
                             line-height: 64px;
                         }
+                    }
+                }
+            }
+        }
+
+        .showcase{
+            padding: 17.6rem 2rem;
+        }
+
+        .explore{
+            padding: 10rem 2rem 0;
+
+            &__container{
+                &__right{
+                    &__card{
+                        padding: 5rem 0;
+                       h1{
+                        font-weight: 400;
+                        font-size: 48px;
+                        line-height: 64px;
+                       } 
                     }
                 }
             }
@@ -103,6 +205,68 @@
                             font-size: 3rem;
                         }
                     }
+                }
+            }
+        }
+
+        .showcase{
+            padding: 20rem 1.6rem;
+
+            &__container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h1{
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 52px;
+                    text-align: center;
+                    align-items: center;
+                }
+
+                p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    text-align: center;
+                }
+
+                a{
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 23px;
+                    padding: 1.6rem 4rem;
+                }
+            }
+        }
+
+
+        .explore{
+            &__container{
+                &__left{
+                    &__wrap{
+                        ul{
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            gap: 1.7rem;
+                            
+                            li{
+                                a{
+                                    padding: 0.5rem 1.2rem;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &__right{
+                    grid-template-columns: 1fr;
                 }
             }
         }
