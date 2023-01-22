@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,24 +21,34 @@
 </head>
 <body>
 
-
-    <div class="abdulloh"></div>
-    <div class="giyos">
-        
-    </div>
-
     <div class="abdulloh">
         <header class="header">
             <div class="header__container">
-                <a href="./index.html">
+                <a class="logo" href="./index.html">
+                    <img src="./assets/images/logo.svg" alt="">
+                </a>
+
+                <input type="checkbox" id="checkbox">
+
+                <label for="checkbox" class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <a href="./index.html" class="none">
                     <img src="./assets/images/logo.svg" alt="">
                 </a>
 
                 <ul class="header__container__nav">
+
+                    <label for="checkbox" class="xmark">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Categories</a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
 
                 <ul class="header__container__socials">
@@ -44,12 +58,19 @@
                 </ul>
             </div>
         </header>
+
+        <section class="showcase">
+            <div class="showcase__container">
+                <h1>Exclusive Deals of Furniture Collection</h1>
+                <p>Explore different categories. Find the best deals.</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </section>
     </div>
+
     <div class="giyos"></div>
 
-    <div class="sultonmurod">
-        
-    </div>
+    <div class="sultonmurod"></div>
 
 </body>
 </html>

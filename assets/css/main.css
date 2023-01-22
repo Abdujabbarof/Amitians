@@ -16,6 +16,110 @@ html .container {
 }
 
 .abdulloh .header {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 3rem 4rem;
+}
+.abdulloh .header__container {
+  max-width: 1620px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.abdulloh .header__container #checkbox, .abdulloh .header__container label, .abdulloh .header__container .none {
+  display: none;
+  font-size: 3.1rem;
+  color: white;
+}
+.abdulloh .header__container__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+.abdulloh .header__container__nav li a {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132.9%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.abdulloh .header__container__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5.8rem;
+}
+.abdulloh .header__container__socials li a {
+  font-size: 2.7rem;
+  color: white;
+}
+
+.abdulloh .showcase {
+  padding: 35.3rem 4rem;
+  background: url(.);
+}
+.abdulloh .showcase__container {
+  max-width: 1620px;
+  width: 100%;
+  margin: 0 auto;
+}
+.abdulloh .showcase__container h1 {
+  max-width: 66.8rem;
+  width: 100%;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484A;
+}
+.abdulloh .showcase__container p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #07484A;
+  margin-top: 5.2rem;
+}
+.abdulloh .showcase__container a {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FDFBF8;
+  padding: 2.3rem 5.4rem;
+  background: #70908B;
+  border-radius: 10px;
+  margin-top: 5.4rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.abdulloh .showcase__container a:hover {
+  color: #70908B;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */
