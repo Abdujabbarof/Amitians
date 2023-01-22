@@ -351,10 +351,21 @@ html .container {
   color: #000000;
   padding: 25px 0 40px 0;
 }
+.SpecialPackage .container .flexed .description .cards {
+  height: 400px;
+  width: 100%;
+  background-color: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 .SpecialPackage .container .flexed .description .cards .card {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 17px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  overflow: visible;
+  cursor: pointer;
 }
 .SpecialPackage .container .flexed .description .cards .card .about {
   display: flex;
@@ -366,7 +377,7 @@ html .container {
   width: 393px;
   height: 183px;
   border-radius: 10px;
-  background: #e0f6f1;
+  background: #fff;
 }
 .SpecialPackage .container .flexed .description .cards .card .about .inAbout {
   display: flex;
@@ -389,6 +400,33 @@ html .container {
   line-height: 115%;
   letter-spacing: -0.02em;
   color: #07484a;
+}
+.SpecialPackage .container .flexed .description .cards .card .about .seeDetail {
+  text-decoration: underline;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  text-decoration-line: underline;
+  color: #07484a;
+}
+.SpecialPackage .container .flexed .description .cards .card:hover {
+  transform: scale(1.1);
+  overflow: visible;
+}
+.SpecialPackage .container .flexed .description .cards .card:hover .about {
+  background-color: #e0f6f1;
+}
+.SpecialPackage .container .flexed .description .cards::-webkit-scrollbar {
+  width: 3px;
+  background-color: #07484A;
+}
+.SpecialPackage .container .flexed .description .cards::-webkit-scrollbar-thumb {
+  width: 50px;
+  border-radius: 50px;
+  background-color: #70908B;
 }
 
 footer {
@@ -527,6 +565,9 @@ footer .container__right {
   }
   .abdulloh .explore__container__left__wrap::-webkit-scrollbar {
     display: none;
+  }
+  .SpecialPackage .conatiner .flexed {
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
