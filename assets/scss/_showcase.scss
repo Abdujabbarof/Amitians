@@ -1,7 +1,11 @@
 .abdulloh{
     .showcase{
         padding: 35.3rem 4rem;
-        background: url(../css/main.css);
+        background: url(../images/bg-show.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0 0 50px 50px;
 
         &__container{
             max-width: 1620px;
