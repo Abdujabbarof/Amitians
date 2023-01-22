@@ -1,0 +1,35 @@
+footer {
+  padding: 10rem 4rem 3rem;
+  gap: 20rem;
+  .container {
+    margin: 0 auto;
+    max-width: 1620px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    gap: 10rem;
+    &__left {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      .row {
+        display: flex;
+        gap: 3rem;
+        &__icons {
+          font-size: 3rem;
+          color: $green;
+        }
+      }
+      .content {
+        font-size: 2rem;
+      }
+    }
+    &__right {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+}
