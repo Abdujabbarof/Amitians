@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
 }
@@ -13,4 +12,123 @@ html {
 html .container {
   max-width: 1620px;
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.SpecialPackage .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.SpecialPackage .container .title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 96px;
+  text-align: center;
+  color: #07484a;
+  padding-bottom: 103px;
+}
+.SpecialPackage .container .flexed {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.SpecialPackage .container .flexed .left {
+  width: 50%;
+}
+.SpecialPackage .container .flexed .left img.giyos1 {
+  max-width: 100%;
+  background: url(pexels-taryn-elliott-4112601.jpg);
+  border-radius: 16px;
+}
+.SpecialPackage .container .flexed .left .afterImg .personName {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #07484a;
+  padding: 32px 0 21px 0;
+}
+.SpecialPackage .container .flexed .left .afterImg .starImg {
+  width: 248.98px;
+  height: 39.12px;
+}
+.SpecialPackage .container .flexed .left .afterImg .price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #07484a;
+  margin-top: 21px;
+}
+.SpecialPackage .container .flexed .description {
+  width: 50%;
+}
+.SpecialPackage .container .flexed .description .decs {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #07484a;
+}
+.SpecialPackage .container .flexed .description .decs .decTitle {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.SpecialPackage .container .flexed .description p.seeMore {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding: 25px 0 40px 0;
+}
+.SpecialPackage .container .flexed .description .cards .card {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.SpecialPackage .container .flexed .description .cards .card .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 24px;
+  width: 393px;
+  height: 183px;
+  border-radius: 10px;
+  background: #e0f6f1;
+}
+.SpecialPackage .container .flexed .description .cards .card .about .inAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SpecialPackage .container .flexed .description .cards .card .about .inAbout .room {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #07484a;
+}
+.SpecialPackage .container .flexed .description .cards .card .about .inAbout .room + p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #07484a;
+}
+
+/*# sourceMappingURL=main.css.map */
