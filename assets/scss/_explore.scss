@@ -1,0 +1,185 @@
+.abdulloh{
+    .explore{
+        width: 100%;
+        padding: 26rem 4rem 0;
+
+        h1{
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 85px;
+            color: #07484A;
+            text-align: center;
+        }
+
+        &__container{
+            max-width: 1620px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 6rem;
+            margin-top: 10rem;
+
+            &__left{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                form{
+                    width: 100%;
+                    background: #F0F0F0;
+                    border-radius: 10px;
+                    padding: 2.7rem 3.2rem;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 2rem;
+                    
+                    i{
+                        font-size: 2.4rem;
+                    }
+
+                    input[type=text]{
+                        width: 100%;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #6E757E;
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+                    }
+                }
+
+                &__wrap{
+                    width: 100%;
+                    margin-top: 8rem;
+                    overflow-y: scroll;
+                    max-height: 682px;
+                    min-height: 682px;
+                    padding: 0 1rem;
+
+                    &::-webkit-scrollbar{
+                        width: 4px;
+                        background-color: #07484A;
+                    }
+
+                    &::-webkit-scrollbar-thumb{
+                        background-color: #70908B;
+                        width: 100%;
+                    }
+
+
+                    ul{
+                        width: 100%;
+                        li{
+                            width: 100%;
+                            a{
+                                display: inline-block;
+                                width: 100%;
+                                padding: 2rem 0;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #07484A;                                
+                            }
+                        }
+                    }
+                }
+                
+                .btn{
+                    max-width: 26.4rem;
+                    width: 100%;
+                    display: inline-block;
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    padding: 3.2rem 2rem;              
+                    background: #70908B;
+                    border-radius: 10px;
+                    margin-top: 5.4rem;
+                    transition: .4s;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+    
+                    &:hover{
+                        color: #70908B;
+                        background-color: white;
+                    }
+                }
+            }
+
+            &__right{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 3.2rem;
+
+                &__card{
+                    width: 100%;
+                    padding: 7.3rem 2rem;
+                    background: url(../images/card-img.jpeg);
+                    background-size: cover;
+                    background-position: center;
+                    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.15));
+                    border-radius: 10px;
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    h1{
+                        font-family: 'Playfair Display';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 64px;
+                        line-height: 85px;
+                        color: #FDFBF8;
+                        transition: .4s;
+                        opacity: 0;
+                    }
+
+                    a{
+                        opacity: 0;
+                        transition: .4s;
+                        margin-top: 3.6rem;
+                        display: inline-block;
+                        padding: 1.4rem 4.3rem;
+                        background: #E0EFF6;
+                        border-radius: 6px;
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 25px;
+                        color: #07484A;  
+                        
+                        &:hover{
+                            background-color: #07484A;
+                            color: #E0EFF6;
+                        }
+                    }
+
+                    &:hover{
+                        h1, a{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
