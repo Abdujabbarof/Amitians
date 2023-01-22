@@ -13,4 +13,9 @@ html {
 html .container {
   max-width: 1620px;
   width: 100%;
+}
+
+.abdulloh .header {
+  width: 100%;
+  padding: 3rem 4rem;
 }/*# sourceMappingURL=main.css.map */

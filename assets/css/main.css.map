@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/_utils.scss","main.css"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,8BAAA;UAAA,sBAAA;EACA,gBAAA;EACA,qBAAA;ACCJ;;ADEA;EACI,eAAA;ACCJ;ADCI;EACI,iBAAA;EACA,WAAA;ACCR","file":"main.css"}
+{"version":3,"sources":["../../competition/assets/scss/_utils.scss","main.css","../../competition/assets/scss/_header.scss"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,8BAAA;UAAA,sBAAA;EACA,gBAAA;EACA,qBAAA;ACCJ;;ADEA;EACI,eAAA;ACCJ;ADCI;EACI,iBAAA;EACA,WAAA;ACCR;;ACbI;EACI,WAAA;EACA,kBAAA;ADgBR","file":"main.css"}
